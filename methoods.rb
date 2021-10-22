@@ -1,10 +1,8 @@
 
 def start
-  1.times do
       puts "Цикни 'Enter' щоб почати гру"
       user_input = gets.chomp.upcase
       sleep 1
-  end
 end
 
 def download
